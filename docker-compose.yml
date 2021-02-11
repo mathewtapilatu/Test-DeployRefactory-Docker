@@ -1,6 +1,6 @@
 version: '3'
 services:
- gapura-web:
+ pingpong:
   container_name: pingpong
   image: pingpong:latest
   restart: always
