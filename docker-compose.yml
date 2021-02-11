@@ -1,0 +1,9 @@
+version: '3'
+services:
+ gapura-web:
+  container_name: pingpong
+  image: pingpong:latest
+  restart: always
+  hostname: pingpong
+  ports:
+   - "9876:3000"
